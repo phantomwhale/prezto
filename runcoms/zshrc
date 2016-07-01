@@ -15,6 +15,12 @@ fi
 # ensure dotfiles bin directory is loaded first
 PATH="$HOME/.bin:$PATH"
 
+# bindkey for word boundries movement
+
+bindkey -e;
+bindkey '^[[1;9C' forward-word;
+bindkey '^[[1;9D' backward-word;
+
 # Set up my bash aliases
 source ~/.bash/aliases
 

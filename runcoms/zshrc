@@ -12,6 +12,9 @@ fi
 
 # Customize to your needs...
 
+# ensure dotfiles bin directory is loaded first
+PATH="$HOME/.bin:$PATH"
+
 # Set up my bash aliases
 source ~/.bash/aliases
 
